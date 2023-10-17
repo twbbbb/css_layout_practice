@@ -1,14 +1,26 @@
-body{
-    background-color: black;
-    color:white;
-    border: 1px solid;
+* {
+  border: solid;
 }
-a{
-    border: 1px solid;
+body {
+  background-color: black;
+  color: white;
 }
-.container{
-    font-size:2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap:10px;    
+.topbar {
+  font-size: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sidebar {
+  flex-basis: 100px;
+}
+.sidebar a {
+  display: block;
+}
+.content {
+  flex-basis: 100px;
 }
