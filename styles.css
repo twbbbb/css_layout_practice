@@ -1,5 +1,8 @@
 * {
   border: solid;
+  /* overflow-wrap: break-word; */
+  /* word-break: break-word; */
+  overflow-wrap: anywhere;
 }
 body {
   background-color: black;
@@ -16,11 +19,12 @@ body {
   flex-wrap: wrap;
 }
 .sidebar {
-  flex-basis: 100px;
+  /* flex-basis: 100px; */
+  width: 200px;
 }
 .sidebar a {
   display: block;
 }
 .content {
-  flex-basis: 100px;
+  width: 500px;
 }
